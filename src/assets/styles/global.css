@@ -124,7 +124,12 @@
 
   }
   body {
-    @apply bg-black text-white font-anton;
-  
+    @apply bg-black text-white font-anton ;
+
+    
+  }
+
+  html {
+    @apply scroll-smooth scroll-pt-10;
   }
 }

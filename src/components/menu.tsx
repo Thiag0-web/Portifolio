@@ -26,8 +26,8 @@ export function Menu() {
             Make changes to your profile here. Click save when you&apos;re done.
           </SheetDescription>
         </SheetHeader>
-        <nav className="px-4">
-          <ul className="space-y-7.5 font-poppins">
+        <nav className="px-4 ">
+          <ul className="space-y-7.5 font-poppins ">
             <li>
               <a href="#home">Home</a>
             </li>

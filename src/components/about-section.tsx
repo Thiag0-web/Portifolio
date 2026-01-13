@@ -3,20 +3,20 @@ import CardImage from "@/assets/img/img1.png";
 
 export function AboutSection() {
   return (
-    <section className="max-w-[1400px] mx-auto mt-18.5 mb-60 px-4 md:px-0">
+    <section className="max-w-[1400px] mx-auto mt-18.5 mb-60 px-4 md:px-0" id="about">
       <div className="grid md:grid-cols-2">
         <div className="flex flex-col order-1">
           <div className="flex items-center gap-6">
-            <h3 className="uppercase mb-12.5 md:mb-0 text-5xl ">about me</h3>
+            <h3 className="uppercase mb-12.5 md:mb-0 text-5xl ">Sobre mim</h3>
             <img 
             className=" hidden md:block"
             src={Decorator} alt="Decoração" />
           </div>
           <div className="flex-1 flex items-center">
             <p className="text-xl font-poppins font-bold md:w-4/5 ">
-              I am a{" "}
+              Sobre mim{" "}
               <span className="bg-linear-to-r from-[#FA709A] to-[#FEE140] text-transparent bg-clip-text">
-                Product Designer
+                Desenvolvedor Front-end
               </span>{" "}
               and Frontend Developer, I fully understand the process of design
               and development of a digital product, my job is to make a product

@@ -1,7 +1,7 @@
 export function SkillsSection() {
   return (
-    <section className="max-w-[1400px] mx-auto my-18.5 px-4 md:px-0">
-      <h2 className="text-5xl mb-8">SKILLS</h2>
+    <section className="max-w-[1400px] mx-auto my-18.5 px-4 md:px-0" id="skills">
+      <h2 className="text-5xl mb-8">SOFT SKILLS</h2>
 
       <div className="grid text-center md:text-start md:grid-cols-2 gap-4 ">
         <div className="flex flex-col md:flex-row items-center gap-4 border border-[#737373] rounded-lg p-4 pt-10 md:p-10">
