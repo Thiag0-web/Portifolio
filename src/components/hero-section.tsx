@@ -4,7 +4,7 @@ import Linkedlin from "@/assets/icons/linkedin.png";
 import Whatsapp from "@/assets/icons/whatsapp.png";
 import { CircleArrowDown } from "lucide-react";
 import Star from "@/assets/img/Portal.png";
-
+import ilustration from "@/assets/img/ilustration.png"
 
 export function HeroSection() {
   return (
@@ -40,7 +40,7 @@ export function HeroSection() {
         </div>
         <img className="hidden md:block" src={Star} />
       </div>
-      <img className="flex-1  hidden md:block"  alt="" />
+      <img className="flex-1  hidden md:block"  alt="" src={ilustration}/>
     </section>
   );
 }
