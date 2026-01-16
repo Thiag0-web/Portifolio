@@ -2,7 +2,7 @@ import { ProjectCard } from "./project-card";
 import ticket from "@/assets/projects/tickt-system.png"
 import Barbearia from "@/assets/projects/barbearia.png"
 import Formulario from "@/assets/projects/Formulario.png"
-import img1 from "@/assets/img/img1.png";
+import EmBreve from "@/assets/img/EmBreve.jpg"
 
 const projects = [
     {
@@ -24,31 +24,31 @@ const projects = [
         title: "Formulario"
      },
      {
-        img:img1,
+        img:EmBreve,
         link: "",
         technologies: ["JavaSccript", "Teste"],
         title: "Em breve"
      },
      {
-        img:img1,
+        img:EmBreve,
         link: "",
         technologies: ["JavaSccript", "Teste"],
         title: "Em breve"
      },
      {
-        img:img1,
+        img:EmBreve,
         link: "",
         technologies: ["JavaSccript", "Teste"],
         title: "Em breve"
      },
      {
-        img:img1,
+        img:EmBreve,
         link: "",
         technologies: ["JavaSccript", "Teste"],
         title: "Em breve"
      },
      {
-        img:img1,
+        img:EmBreve,
         link: "",
         technologies: ["JavaSccript", "Teste"],
         title: "Em breve"

@@ -5,6 +5,7 @@ import Whatsapp from "@/assets/icons/whatsapp.png";
 import { CircleArrowDown } from "lucide-react";
 import Star from "@/assets/img/Portal.png";
 import ilustration from "@/assets/img/ilustration.png"
+import github from "@/assets/icons/github.png"
 
 export function HeroSection() {
   return (
@@ -25,8 +26,11 @@ export function HeroSection() {
             <a href="https://www.linkedin.com/in/thiago-oliveira-web/" target="_blank">
               <img src={Linkedlin} alt="" />
             </a>
-            <a href="">
-              <img src={Whatsapp} alt="" />
+            <a href="https://wa.me/5577991513763" target="_blank">
+              <img src={Whatsapp} alt="WhatsApp" />
+            </a>
+            <a href="https://github.com/Thiag0-web" target="_blank">
+              <img src={github} alt="Link github" />
             </a>
           </div>
           <a
@@ -40,7 +44,7 @@ export function HeroSection() {
         </div>
         <img className="hidden md:block" src={Star} />
       </div>
-      <img className="flex-1  hidden md:block"  alt="" src={ilustration}/>
+      <img className="flex-1  hidden md:block"  alt="" src={ilustration} />
     </section>
   );
 }
