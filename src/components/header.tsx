@@ -16,12 +16,12 @@ export function Header() {
           <li>
             <a 
             className="hover:underline"
-            href="#portfolio">Portfolio</a>
+            href="#portfolio">Projetos</a>
           </li>
           <li>
             <a 
             className="hover:underline"
-            href="#skills">Skills</a>
+            href="#skills">Softskills</a>
           </li>
           <li>
             <a 

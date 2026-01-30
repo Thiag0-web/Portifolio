@@ -25,16 +25,16 @@ export function Footer() {
         <nav>
           <ul className="flex items-center gap-5 md:gap-7.5 font-poppins">
             <li>
-              <a href="#home">Home</a>
+              <a href="#home">Início</a>
             </li>
             <li>
-              <a href="#portfolio">Portfolio</a>
+              <a href="#portfolio">Projetos</a>
             </li>
             <li>
-              <a href="#skills">Skills</a>
+              <a href="#skills">Softskills</a>
             </li>
             <li>
-              <a href="#about">About Me</a>
+              <a href="#about">Sobre mim</a>
             </li>
           </ul>
         </nav>

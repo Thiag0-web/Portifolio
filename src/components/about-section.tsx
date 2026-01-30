@@ -44,7 +44,7 @@ export function AboutSection() {
           <p className="text-xl font-poppins font-bold ">
             Sou movido por{" "}
             <span className="bg-linear-to-r from-[#84FAB0] to-[#8FD3F4] text-transparent bg-clip-text">
-              aprendizado contínuo
+              aprendizado contínuo{" "}
             </span>
             e estou sempre estudando novas{" "}
             <span className="bg-linear-to-r from-[#84FAB0] to-[#8FD3F4] text-transparent bg-clip-text">
