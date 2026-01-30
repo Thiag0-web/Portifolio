@@ -1,5 +1,4 @@
 import Logo from "@/assets/img/Logo.png";
-import { Button } from "./ui/button";
 import { Menu } from "./menu";
 
 
@@ -32,10 +31,7 @@ export function Header() {
         </ul>
       </nav>
 
-      <Button 
-        className="bg-[#925FF0] rounded hover:bg-[#7149bb] font-poppins hidden md:flex ">
-        Contato
-      </Button>
+     
 
       <Menu/>
 
