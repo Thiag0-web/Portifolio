@@ -3,11 +3,12 @@ import ticket from "@/assets/projects/tickt-system.png"
 import Barbearia from "@/assets/projects/barbearia.png"
 import Formulario from "@/assets/projects/Formulario.png"
 import EmBreve from "@/assets/img/EmBreve.jpg"
+import LoguinEcadastro from "@/assets/projects/login_cadastro.png"
 
 const projects = [
     {
         img: ticket,
-        link: "",
+        link: "https://ticket-system-two-eta.vercel.app",
         technologies: [ "React" ,"TypeSccript", "Shadcn" , "tailwind" ],
         title: "Ticket-System"
      },
@@ -24,10 +25,10 @@ const projects = [
         title: "Formulario"
      },
      {
-        img:EmBreve,
-        link: "",
-        technologies: ["JavaSccript", "Teste"],
-        title: "Em breve"
+        img:LoguinEcadastro,
+        link: "https://login-e-cadastro-react-vjlg.vercel.app/",
+        technologies: ["React", "Shadcn"],
+        title: "Login e Cadastro React"
      },
      {
         img:EmBreve,

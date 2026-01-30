@@ -118,6 +118,23 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 50%;
+  height: 100%;
+  aspect-ratio: 5;
+  --c: #fff 90deg,#0000 0;
+  background:
+   conic-gradient(from 135deg at top   ,var(--c)),
+   conic-gradient(from -45deg at bottom,var(--c)) 12.5% 100%;
+  background-size: 20% 50%;
+  background-repeat: repeat-x;
+  animation: l1 .8s infinite linear;
+}
+@keyframes l1{
+  to {background-position: 25% 0,37.5% 100%}
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50 ; 

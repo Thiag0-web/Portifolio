@@ -34,7 +34,7 @@ export function Header() {
 
       <Button 
         className="bg-[#925FF0] rounded hover:bg-[#7149bb] font-poppins hidden md:flex ">
-        Contact Me
+        Contato
       </Button>
 
       <Menu/>
