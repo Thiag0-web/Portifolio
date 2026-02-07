@@ -34,7 +34,7 @@ export function HeroSection() {
             </a>
           </div>
           <a
-            href="https://docs.google.com/document/d/1l_X27WzSUsWhmDmTKyKVZFo3e63_2cLM/edit?usp=drive_link&ouid=111929615799736039051&rtpof=true&sd=true"
+            href="https://thiag0-web.github.io/Curriculo/"
             target="_blank"
           >
             <Button className="w-full bg-[#292929] rounded-none font-poppins hover:bg-[#292929]/70">
